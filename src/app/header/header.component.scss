@@ -1,0 +1,34 @@
+.custom-nav{
+    // border: solid;
+    border-radius: 2rem;
+    border-width: thin;
+    background: #d9d9d9;
+}
+nav {
+    font-size: small;
+    position:relative;
+    margin-left:auto; 
+    margin-right:auto; 
+    width:fit-content; 
+}
+nav li{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    height: 2rem;
+    margin: 0.1rem 0.2rem 0.2rem 0.1rem;
+    cursor: pointer;
+}
+.active {
+    background: white;
+    border-radius: 2rem;
+    width: auto;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.blur {
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
